@@ -1,0 +1,27 @@
+.authentication-bg{
+    background:rgba(152,166,173,.35);
+    }
+    .gray{
+    color:#6c757d!important;
+    }
+  a{
+      text-transform: none!important;
+  }
+    .log img{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 130px;
+    display:inline-block;
+    }
+    .header h4{
+    color: #505458;
+    font-family: 'Karla', sans-serif;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+    }
+    .card{
+    box-shadow: -1px 3px 17px 0px rgba(82,78,78,0.75);
+    -webkit-box-shadow: -1px 3px 17px 0px rgba(82,78,78,0.75);
+    -moz-box-shadow: -1px 3px 17px 0px rgba(82,78,78,0.75);
+    }

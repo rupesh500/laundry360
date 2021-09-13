@@ -1,8 +1,7 @@
-<!doctype html>
+az<!doctype html>
 <html class="no-js" lang="zxx">
+<?php include 'sendemail.php'; ?>
 
-
-<!-- ><meta http-equiv="content-type" content="text/html;charset=utf-8" /> -->
 
 <head>
     <meta charset="utf-8">
@@ -39,7 +38,11 @@
 
 <body>
 
+
+
+
     <header>
+    <?php echo $alert; ?>
         <?php include_once("menubar.php"); ?>
     </header>
     <main>
@@ -63,7 +66,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <form class="form-contact contact_form" action="#" method="post" id="contactForm" novalidate="novalidate">
+
+
+
+                    <form class="contact" action="" method="post">
+                        <!-- <form class="form-contact contact_form" action="" method="post" id="contactForm" novalidate="novalidate"> -->
                             <div class="col-12">
                                 <h2 class="contact-title">Get in Touch</h2>
                             </div>
@@ -84,16 +91,27 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <div class="form-group">
+                                    <!-- <div class="form-group">
                                         <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject">
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <div class="form-group mt-3">
-                                <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+                                <!-- <button type="submit" value="send" class="button button-contactForm boxed-btn">Send</button> -->
+
+                                <input type="submit" name="submit" class="button button-contactForm boxed-btn" value="Send">
                             </div>
                         </form>
                     </div>
+
+
+                    <script type="text/javascript">
+    if(window.history.replaceState){
+      window.history.replaceState(null, null, window.location.href);
+    }
+    </script>
+
+
                     <div class="col-lg-6">
 
                         <iframe class="m-auto " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241412.4989036228!2d72.89307213178624!3d19.016623858733002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9f0b81f13ad%3A0x3c12f7681185f869!2sNavi%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1629384637145!5m2!1sen!2sin" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>

@@ -1,4 +1,4 @@
-az<!doctype html>
+<!doctype html>
 <html class="no-js" lang="zxx">
 <?php include 'sendemail.php'; ?>
 

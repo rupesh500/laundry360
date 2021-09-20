@@ -28,7 +28,7 @@
                 </div> 
                 <div class="header-right d-none d-lg-block">
                     <!-- <a href="tel:+91 9876543210" class="header-btn1"><img src="assets/img/icon/call.png" alt=""> (+91) 987 654 3210</a> -->
-                    <a href="register.php" class="header-btn2">Shedule an Appointment</a>
+                    <a href="login.php" class="header-btn2">Shedule an Appointment</a>
                 </div>
                 <!-- Mobile Menu -->
                 <div class="col-12">

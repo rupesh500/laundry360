@@ -1,3 +1,4 @@
+<?php include "db_config.php";?>
 <!doctype html>
 <html class="no-js" lang="eng">
    <head>
@@ -22,6 +23,7 @@
       <link rel="stylesheet" href="assets/css/nice-select.css">
       <link rel="stylesheet" href="assets/css/style.css">
       <link rel="stylesheet" href="assets/css/custom.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <style>
          /* .main-card{
          width: 70%;
@@ -86,6 +88,34 @@
          height: 250px;
          }
          }
+
+
+
+          
+          
+/*          CARD CSSS STRAT*/
+
+
+
+.box{
+    padding:60px 0px;
+
+}
+
+.box-part{
+    background:#FFF;
+    border-radius:0;
+    padding:60px 10px;
+    margin:30px 0px;
+}
+.text{
+    margin:20px 0px;
+}
+
+.fa{
+     color:#4183D7;
+}   
+/*          CARD CSS END*/
       </style>
    </head>
    <body>
@@ -117,70 +147,72 @@
                   <span class="element">Services</span>
                   <h2>Services we offer</h2>
                </div>
-               <div class="row">
-                  <!-- <div class="col-lg-12">
-                     <div class="section-tittle text-center mb-55">
-                         <span class="element">Services</span>
-                         <h2>Services we offer</h2>
-                     </div>
-                     </div> -->
-                  <div class="col-lg-4 col-md-6 col-sm-12 col-xm-12 pb-5">
-                     <div class="card">
-                        <img class="img-fluid mx-auto d-block" src="assets/img/image/luandary-services.jpg" alt="">
-                        <h1>Cloth Laundry</h1>
-                        <div class="card-body">
-                           <p class="card-text">Let us pick up your dirty laundry, sort it, pre-treat stains, wash, dry, fold and deliver back to you in one neat, easy package.</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12 col-xm-12">
-                     <div class="card">
-                        <img class="img-fluid mx-auto d-block" src="assets/img/gallery/offers4.png" alt="">
-                        <h1>Steam Iron</h1>
-                        <div class="card-body">
-                           <p class="card-text">These services are accomplished under the guidance of adroit personnel who have affluent industry proficiency.</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12 col-xm-12">
-                     <div class="card">
-                        <img class="img-fluid mx-auto d-block" src="assets/img/image/dry-cleaning.jpg" alt="">
-                        <h1>Dry Cleaning</h1>
-                        <div class="card-body">
-                           <p class="card-text">SMU students and local residents love on our reliable dry cleaning services for the fast, accurate, top quality results.</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12 col-xm-12">
-                     <div class="card">
-                        <img class="img-fluid mx-auto d-block" src="assets/img/gallery/offers1.png" alt="">
-                        <h1>Premium Laundry</h1>
-                        <div class="card-body">
-                           <p class="card-text">The automated process starts as soon as your clothes go into the machine. The outcome is gleaming clothes!!</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12 col-xm-12">
-                     <div class="card">
-                        <img class="img-fluid mx-auto d-block" src="assets/img/gallery/offers1.png" alt="">
-                        <h1>Premium Laundry</h1>
-                        <div class="card-body">
-                           <p class="card-text">The automated process starts as soon as your clothes go into the machine. The outcome is gleaming clothes!!</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12 col-xm-12">
-                     <div class="card">
-                        <img class="img-fluid mx-auto d-block" src="assets/img/gallery/offers1.png" alt="">
-                        <h1>Premium Laundry</h1>
-                        <div class="card-body">
-                           <p class="card-text">The automated process starts as soon as your clothes go into the machine. The outcome is gleaming clothes!!</p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
+                
+                
+                
+            
+          
+   
+                
+                
+                
+                
+                
+       <div class="box">
+    <div class="container">
+        
+        
+        
+                 
+       
+        
+        
+     
+        
+        
+      
+    </div>
+</div>         
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+     
+
+
+
+
          <!-- Offer-services End  -->
          <!--? Want To work -->
          <section class="container pt-top mt-50">

@@ -18,6 +18,7 @@
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
   }
+?>
 
  <?php 
   if (!isset($_SESSION["user_loged"])) {

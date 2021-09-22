@@ -162,12 +162,57 @@
     <div class="container">
         
         
-        
-                 
-       
-        
-        
-     
+   
+     	<div class="row">
+               <?php 
+            $Discount_offer = ("SELECT pricing.*, services.service_name, cloths.cloth_type FROM pricing INNER JOIN services ON (pricing.service_id=services.id) INNER JOIN cloths ON (pricing.cloth_id=cloths.id)");
+        $result = mysqli_query($connection,$Discount_offer);
+                $i = 1; 
+                while ($data_tbl = mysqli_fetch_assoc($result)) {
+                  extract($data_tbl);
+
+           ?>
+			 
+			    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+               
+					<div class="box-part text-center">
+                        
+                        <i class="fa fa-fw fa-shopping-cart fa-3x" aria-hidden="true"></i>
+                      
+						<div class="title">
+							<h4>Service Name: <?= $service_name ?></h4>
+						</div>
+                        
+						<div class="text">
+							<span>Cloth Type: <?= $cloth_type ?></span>
+                            <p>Price: <?= $price ?> Rs</p>
+                            <p>Discount:  <?= $discount ?> %</p>
+                            
+                            
+                             <form action="order.php" method="post">
+                    <input type="hidden" value="<?= $cloth_id ?>" name="i_cloth_type">
+                    <input type="hidden" value="<?= $service_id ?>" name="i_service_name">
+
+                    
+                      <button type="submit" class="btn btn-primary" >
+                        <span class="float-left" style=" font-weight:bold;">Order Now</span>
+                      
+                      </button>
+
+                  </form>
+						</div>
+                        
+                        
+						<a href="#">Learn More</a>
+                        
+					 </div>
+				</div>	
+            
+            
+              <?php } ?>
+			
+		
+		</div>	
         
         
       

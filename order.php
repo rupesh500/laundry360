@@ -83,7 +83,7 @@ if (session_status() == PHP_SESSION_NONE) {
 							        <select class="service_name form-control" name="service_name[]">
 
 							          <?php
-							            $sql_query="SELECT * FROM `services";
+							            $sql_query="SELECT * FROM services";
 							            $sql_result = DB_Query($sql_query);
 							            while ($row = mysqli_fetch_assoc($sql_result)) {
 							                  extract($row);
@@ -109,7 +109,7 @@ if (session_status() == PHP_SESSION_NONE) {
 	                			<td>
 	                				<select class="cloth_type form-control" name="cloth_type[]">
 							          <?php
-							            $sql_query="SELECT * FROM `cloths ";
+							            $sql_query="SELECT * FROM cloths ";
 							            $sql_result = DB_Query($sql_query);
 							            while ($row = mysqli_fetch_assoc($sql_result)) {
 							                  extract($row);

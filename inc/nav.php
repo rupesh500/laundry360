@@ -225,8 +225,6 @@ if ($_SESSION["user_role"]==1) {
 <li class="nav-item">
 <a class="nav-link" style="color:black!important; font-weight:600!important;" data-toggle="modal" data-target="#exampleModal">
 <i class="fa fa-fw fa-sign-out"></i>Logout <?= $_SESSION["user_name"] ?>   </a>
-</li>
-</ul>
 
 <?php }else{?> 
 </ul>
